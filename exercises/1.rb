@@ -21,3 +21,7 @@
 # To rectify this, you can convert the number into a string
 # "i would like #{5} tacos"
 
+dice_1 = rand(1..6)
+dice_2 = rand(1..6)
+puts "You rolled a " + "#{dice_1}" + " and a " + "#{dice_2}"
+puts "Your total dice roll is #{dice_1 + dice_2}"
